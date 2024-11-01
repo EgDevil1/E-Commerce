@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Wednesday</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header">
+            <p class="logo">Project Wednesday</p>
+            <nav>
+                <ul class="links">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#products">PRODUCTS</a></li>
+                    <li><a href="#about-section">ABOUT US</a></li>
+                    <li><a href="#cart-section">CART</a></li>
+                </ul>
+                
+            </nav>
+            <div class="cart">
+                <span id="cart-count">0</span>
+                <img src="Cart.jpg" alt="" class="cart-icon">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Product List -->
+        <section id="products" class="product-list">
+            <!-- Products -->
+            <div class="product">
+                <img src="./Products/Jacket1.jpg" alt="Jacket">
+                <h3>Jacket</h3>
+                <p>Rs.1099</p>
+                <button onclick="addToCart('Jacket', 1099)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="./Products/Sari.jpg" alt="Sari">
+                <h3>Sari</h3>
+                <p>Rs.999</p>
+                <button onclick="addToCart('Sari', 999)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="./Products/Tshirt1.jpg" alt="Plain T-Shirt">
+                <h3>Plain T-Shirt</h3>
+                <p>Rs.599</p>
+                <button onclick="addToCart('Plain T-Shirt', 599)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="./Products/Tshirt2.jpg" alt="Printed T-Shirt">
+                <h3>Printed T-Shirt</h3>
+                <p>Rs.699</p>
+                <button onclick="addToCart('Printed T-Shirt', 699)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="./Products/CargoPants.jpg" alt="CargoPants">
+                <h3>CargoPants</h3>
+                <p>Rs.799</p>
+                <button onclick="addToCart('CargoPants', 799)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="./Products/CropTop.jpg" alt="CropTop">
+                <h3>CropTop</h3>
+                <p>Rs.899</p>
+                <button onclick="addToCart('CropTop', 799)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="./Products/Kurta.jpg" alt="Kurta">
+                <h3>Kurta</h3>
+                <p>Rs.1199</p>
+                <button onclick="addToCart('Kurta', 799)">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="./Products/Vest.jpg" alt="Vest">
+                <h3>Vest</h3>
+                <p>Rs.1299</p>
+                <button onclick="addToCart('Vest', 799)">Add to Cart</button>
+            </div>
+
+        </section>
+
+       
+
+        <section id="ABOUT US" class="about-section">
+            <h2>ABOUT US</h2>
+            <p>This is a project E-commerce website assigned by College and Created by Samir Adhikari (Frontend) and Anmol Kc (Backend).</p>
+        </section>
+
+    </main>
+
+    <script src="./Home.js"></script>
+</body>
+</html>
